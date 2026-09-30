@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <p>ALA-TOO COLLEGE * WEB PROGRAMMING</p>
+        <h1>Shamil's Creative Portfolio</h1>
+        <p>Student. Curious learner. Future web developer.</p>
+        <a href="">About me</a>
+        <a href="">Skills</a>
+        <a href="">My work</a>
+        <a href="">Contact</a><br>
+        
+        <img src="media/hero.svg" alt="Portfolio Image">
+        <h2>01-About Me</h2>
+        <p>Hello! I'm <strong>Shamil</strong>, a student at Ala-Too College in Bishkek.</p><br>
+
+        <p>I enjoy building useful pages, taking photos and learing how the web works.</p>
+        <p>My current goal is to create a complete portfolio with clear and meaningful HTML.</p><br>    
+        <p>Small steps, regular practice, better websites.</p>
+        <details>
+            <summary>What am I learning this month?</summary><br>
+        </details>
+          <section>
+            <h2>02 - Skills & learning</h2>
+            <ul>
+                <li>Semantic page structure: header, main and footer</li>
+                <li>Links, lists and images</li>
+                <li>Audio, video and accessible form labels</li>
+            </ul>
+        </section>
+                        <p><label for="progress">Portfolio section coompleted:</label>
+        <progress id="progress" value="5" max="10">60%</progress><strong>3/5</strong></p>
+      <p><label for="score">My HTML self-assesment: </label>
+        <meter id="score" min="0" max="100" low="50" high="80" optimum="100" value="75">75 из 100</meter><strong>70/100</strong></p>
+
+        <h3>My weeekly learning plan</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Topic</th>
+                    <th>Goal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Monday</strong></td>
+                    <td>HTML structure</td>
+                    <td>Organize my page</td>
+                </tr>
+                <tr>
+                    <td><strong>Wednsday</strong></td>
+                    <td>Media and forms</td>
+                    <td>Add a contact form</td>
+                </tr>
+                <tr>
+                    <td><strong>Friday</strong></td>
+                    <td>Practice</td>
+                    <td>Check and improve my work</td>
+                </tr>
+            </tbody>
+        </table>
+    </header>
+        <h2>03-My Work</h2>
+        <h3>My First Portfolio</h3>
+        <p>Started on september 2026 • Personal Project</p>
+
+        <img src="media/project (1).svg" alt="My First Portfolio">
+             <figure>
+            <img src="media/project.svg" alt="">
+            <figcaption>A sample page that presents my Skills and learning journey.</figcaption>
+
+        </figure>
+        
+        <p>I built this page to introduce myself and keep my work in one place</p>
+        <ol>
+            <li>Create the header,main content and footer </li>
+            <li>Add about, skills, work and contact sections.</li>
+            <li>Test links,media files and form labels</li>
+        </ol>
+           <details>
+        <summary>What was difficult?</summary>
+        </details>
+        <a href="">Ask me about this project -</a>
+
+        <h3>Media Practice</h3>
+        <p>A short sample sound</p>
+        <audio controls>
+  <source src="media/intro.wav" type="audio/mpeg">
+  Ваш браузер не поддерживает аудио.
+</audio>
+<p>A short portfolio preview:</p>
+<p>
+<video controls width="480" preload="metadata">
+  <source src="media/portfolio-demo.mp4" type="video/mp4">
+  <track src="media/subtitles.vtt" kind="captions" srclang="ru" label="Русский" default>
+  Ваш браузер не поддерживает видео.
+</video>
+</p>
+        <footer>
+        <h1>04 - Let's Connect</h1>
+        <p>Have a question about my work? Write a practice message below</p>
+        <section id="application">
+            <form>
+            <fieldset>
+                <legend>Contact Form</legend>
+                <p>
+                    <label for="student">Your name </label><br>
+                    <input type="text" id="student" required minlength="2" maxlength="80">
+                </p>
+                <p>
+                    <label for="email">Email Address</label><br>
+                    <input type="email" id="email"  placeholder="student@example.com">
+                </p>
+                <select id="direction" name="direction">
+                    <option value="">My project</option>
+                    <optgroup label="Technical">
+                        <option value="web">Web</option>
+                        <option value="data">Java</option>
+                    </optgroup>
+                    <optgroup label="Humanitarian">
+                        <option value="finance">Social problems</option>
+                    </optgroup>
+                </select>
+                <p>
+                    <label for="message">Message</label><br>
+                    <textarea name="message" id="message"></textarea>
+                </p>
+                <p>
+                    <button type="submit" disabled>Send message</button>
+                    <button type="reset">Clear form</button>
+                </p>    
+            <p>Practice form: sending is disabled until a handler is connected</p>
+            </fieldset>
+       
+      </form>
+    </section>
+        <p><small>&copy; 2026 Shamil Made with HTML Bishkek, Kyrgyzstan</small></p>
+        <p><a href="#top">↑ Back to top </a></p>
+  </footer>
+</body>
+</html>
